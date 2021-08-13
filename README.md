@@ -57,6 +57,12 @@ kubectl get svc
 
 kubectl get nodes -o wide
 
+=======
+
+Ref
+
+https://youtu.be/UUqSIPFdxk8
+please subscribe and share / like
 
 
 
