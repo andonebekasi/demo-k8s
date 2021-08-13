@@ -1,0 +1,37 @@
+provider "google" {
+
+  project = "playground-s-11-0fa3b308"
+
+  region  = "asia-southeast1"
+
+}
+
+resource "google_compute_instance" "my_vm" {
+  count        =  3
+  name         = "cka-k8s${count.index}"
+
+  machine_type = "n1-standard-2"
+
+  zone         = "asia-southeast1-b"
+
+
+  boot_disk {
+
+    initialize_params {
+
+      image = "ubuntu-os-cloud/ubuntu-2004-focal-v20210603"
+
+    }
+
+  }
+
+  network_interface {
+
+    network = "default"
+
+    access_config {}
+
+  }
+
+}
+
