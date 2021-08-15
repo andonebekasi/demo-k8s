@@ -65,4 +65,10 @@ https://youtu.be/UUqSIPFdxk8
 please subscribe and share / like
 
 
+andipangeran.xyz
+jasalinux.web.id
+jasalinux.com
+jasa-cloud.com
+
+
 
