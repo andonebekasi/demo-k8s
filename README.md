@@ -62,12 +62,16 @@ kubectl get nodes -o wide
 Ref
 
 https://youtu.be/UUqSIPFdxk8
-please subscribe and share / like
+              
+              please subscribe and share / like
 
 
 andipangeran.xyz
+
 jasalinux.web.id
+
 jasalinux.com
+
 jasa-cloud.com
 
 
