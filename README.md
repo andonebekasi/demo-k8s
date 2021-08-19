@@ -57,6 +57,27 @@ kubectl get svc
 
 kubectl get nodes -o wide
 
+
+Pods
+======
+
+      (WP)
+
+kubectl apply -f volumes.yml
+
+kubectl create secret generic mysql-pass --from-literal=password=ROOT_PASSWORD
+
+kubectl apply -f mysql.yml
+
+kubectl apply -f wordpress.yml
+
+kubectl get pods
+
+   or 
+   
+   cantik-update.yml  (andonebekasi images docker)
+
+
 =======
 
 Ref
