@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cantik
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cantik
+  template:
+    metadata:
+      labels:
+        app: cantik
+    spec:
+      containers:
+      - name: cantik
+        image: andonebekasi/webasik:latest
+        ports:
+        - containerPort: 80
+        
+apiVersion: v1
+kind: Service
+metadata:
+  name: cantik
+spec:
+  type: NodePort
+  selector:
+    app: cantik
+  ports:
+  - port: 80
+    name: http
