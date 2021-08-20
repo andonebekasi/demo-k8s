@@ -82,7 +82,10 @@ kubectl apply -f cantik-update.yml
 
 Ref
 
-https://youtu.be/UUqSIPFdxk8
+https://youtu.be/UUqSIPFdxk8   -------> 1
+              
+
+https://youtu.be/DgxHNrZD8Eg   -------> 2           
               
               please subscribe and share / like
 
