@@ -15,7 +15,7 @@ resource "google_compute_instance" "my_vm" {
   zone         = "asia-southeast1-b"
 
   metadata = {
-     ssh-keys = "andi:ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvDwxb7QwyBJ3RSp3ffTyqONka7BiMycMgWh77Vxg2ts6OiAGiPTmVzOb1pcumYw0YU9+VtO4hdhQPZRrdIH7WypIGTXmLgZcFXiL34wBxFRr58sqg7ET1gEER77euaW2f1/zKSgJmx2tQ1PvYRXSTlSwtqQbrv7Ebio8vggD3kXlJWwPSXh8ihSezuyyAlT/UEpN8GsQ0zCTnd/DF85vGazGDiyClWbaXM6aOSvxyxoEm1hcGLYebTsPeBpeGOgjbXKLPUZrN7VWqHZQZULZtLLYQdz7E0wTfw01/KmxkIZ5fzt16cPEWr1UUmIpU411+dA9y8quI7rN2Z2FaGJgBQ== andi"
+     ssh-keys = "andi:ssh-rsa AAAABxyxoEm1hcGLYebTsPeBpeGOgjbXKLPUZrN7VWqHZQZULZtLLYQdz7E0wTfw01/KmxkIZ5fzt16cPEWr1UUmIpU411+dA9y8quI7rN2Z2FaGJgBQ== andi"
    }
 
   boot_disk {
