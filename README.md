@@ -82,10 +82,12 @@ kubectl apply -f cantik-update.yml
 
 Ref
 
-https://youtu.be/UUqSIPFdxk8   -------> 1
+https://youtu.be/UUqSIPFdxk8   --------> 1
               
 
-https://youtu.be/DgxHNrZD8Eg   -------> 2           
+https://youtu.be/DgxHNrZD8Eg   --------> 2  
+
+https://youtu.be/xOzr1J2tNgY  ---------> bikin Docker images
               
               please subscribe and share / like
 
