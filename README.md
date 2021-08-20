@@ -75,7 +75,7 @@ kubectl get pods
 
    or 
    
-   cantik-update.yml  (andonebekasi images docker)
+kubectl apply -f cantik-update.yml  
 
 
 =======
